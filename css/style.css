@@ -14,7 +14,9 @@ a{
     text-align: right;
     position:relative;
     margin-left: auto;
+    padding: 0;
 }
+
 .lista-menu{
     float:right;
     text-align: right;
