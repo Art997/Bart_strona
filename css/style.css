@@ -1,6 +1,6 @@
 body{
     background-color: gray;
-    overflow: hidden;
+    overflow-x: hidden;
 }
 
 a{ 
@@ -22,6 +22,7 @@ a{
     float:right;
     text-align: right;
     position:relative;
+    padding: 10px;
 }
 
 .logo{
