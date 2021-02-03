@@ -1,13 +1,17 @@
 body{
-    background-color: gray;
+    background-color: white;
     overflow-x: hidden;
+    width: 100%;
 }
 
 a{ 
     color: black;
 }
+
+/*Menu*/
+
 .pasek-menu{
-    background-color: white;
+  position:relative;
 }
 
 .container-nawigacja{
@@ -28,3 +32,48 @@ a{
 .logo{
     float:left;
 }
+
+.motto{
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+}
+
+/*slider*/
+
+@media screen and (max-width:768px){
+    .bg-transparent{
+    background:#000 !important;
+    }
+    }
+    .carousel-caption{
+    padding-bottom:0;
+    padding-top:0;
+    bottom:0;
+    top:50%;
+    transform:translateY(-50%);
+    }
+
+    .carousel-item{
+        max-height: 800px;
+        object-fit: cover;
+    }
+
+    nav {
+        position: -webkit-sticky;
+        /* sticky or fixed are fine */
+        position: fixed;
+        top: 0;
+        height: 69px;
+        width: 100%;
+        background: transparent; /* background when scroll is in the top */
+        transition: background-color 500ms linear;
+      }
+      
+      nav.scrolled {
+        background: white;
+      }
+      
+      main {
+        height: 200vh;
+      }
