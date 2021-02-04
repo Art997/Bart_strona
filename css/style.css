@@ -37,7 +37,23 @@ a{
     margin-left: auto;
     margin-right: auto;
     text-align: center;
+    padding:50px;
+    font-weight: 50px;
 }
+
+nav {
+    position: -webkit-sticky;
+    position: fixed;
+    top: 0;
+    height: 69px;
+    width: 100%;
+    background: transparent; 
+    transition: background-color 500ms linear;
+  }
+  
+  nav.scrolled {
+    background: white;
+  }
 
 /*slider*/
 
@@ -58,22 +74,3 @@ a{
         max-height: 800px;
         object-fit: cover;
     }
-
-    nav {
-        position: -webkit-sticky;
-        /* sticky or fixed are fine */
-        position: fixed;
-        top: 0;
-        height: 69px;
-        width: 100%;
-        background: transparent; /* background when scroll is in the top */
-        transition: background-color 500ms linear;
-      }
-      
-      nav.scrolled {
-        background: white;
-      }
-      
-      main {
-        height: 200vh;
-      }
