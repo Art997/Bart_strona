@@ -55,6 +55,11 @@ nav {
     background: white;
   }
 
+nav.przyklejenie {
+    position: sticky;
+    z-index: 1200;
+}
+
 /*slider*/
 
 @media screen and (max-width:768px){
