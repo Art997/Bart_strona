@@ -54,7 +54,6 @@ a{
     text-decoration: underline;
     opacity:0.8;
     transition: all 0.4s ease-in-out;
-
 }
 
 .logo{
@@ -166,9 +165,24 @@ nav.przyklejenie {
     }
 
     .icon-single{
-        padding:40px;
+        padding:20px;
     }
 
     .icon-border{
         border-right: 2px solid lightgray;
+    }
+
+    .oferta-single{
+        text-align: center;
+        padding:10px;
+        font-family: 'Raleway', sans-serif;
+        font-weight: 500;
+        font-size: 22px;
+    }
+
+    .border-oferta{
+        width:200px;
+        border: 1px solid lightgray;
+        margin-right: auto;
+        margin-left: auto;
     }
